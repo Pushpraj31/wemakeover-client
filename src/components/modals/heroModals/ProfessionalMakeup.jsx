@@ -1,12 +1,9 @@
 import ServiceModal from "../ServiceModal";
-import BridalMakeup from "../../../assets/modals/professional makeup/BridalMakeup.png";
-import EngagementMakeup from "../../../assets/modals/professional makeup/EngagementMakeup2.png";
-import PartyMakeup from "../../../assets/modals/professional makeup/PartyMakeup.png";
 
 const ProfessionalMakeup = ({ onClose, services = [], currentServiceId = null, onServiceChange = null }) => {
   const makeupCard = [
     {
-      img: BridalMakeup,
+      img: "/images/modals/professional makeup/BridalMakeup.png",
       cardHeader: "Bridal Makeup",
       serviceCategory: "Professional Makeup",
       description:
@@ -15,7 +12,7 @@ const ProfessionalMakeup = ({ onClose, services = [], currentServiceId = null, o
       button: "Enquire Now",
     },
     {
-      img: PartyMakeup,
+      img: "/images/modals/professional makeup/PartyMakeup.png",
       cardHeader: "Party Makeup",
       serviceCategory: "Professional Makeup",
       description:
@@ -24,7 +21,7 @@ const ProfessionalMakeup = ({ onClose, services = [], currentServiceId = null, o
       button: "Enquire Now",
     },
     {
-      img: EngagementMakeup,
+      img: "/images/modals/professional makeup/EngagementMakeup2.png",
       cardHeader: "Engagement/Reception",
       serviceCategory: "Professional Makeup",
       description:

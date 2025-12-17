@@ -102,7 +102,7 @@ const OrderSuccess = ({ orderData: propOrderData, onGoHome }) => {
         {/* Animation/Image */}
         <div className="w-28 h-24 sm:w-36 sm:h-32 md:w-40 md:h-40 lg:w-[160px] lg:h-[150px] flex items-center justify-center mb-6 sm:mb-8">
           <img
-            src="/src/assets/order/orderSuccess.svg"
+            src="/images/order/orderSuccess.svg"
             alt="Success Animation"
             className="w-full h-full object-contain rounded-full"
             onError={(e) => {

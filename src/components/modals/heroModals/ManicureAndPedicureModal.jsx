@@ -1,25 +1,13 @@
 /* eslint-disable react/prop-types */
 import ServiceModal from "../ServiceModal";
 
-// classic images
-import ManicureClassic from "../../../assets/modals//manicure and pedicure/classic/Manicure-classic.png";
-import PedicureClassic from "../../../assets/modals//manicure and pedicure/classic/Pedicure-classic.png";
-import FootMassageClassic from "../../../assets/modals//manicure and pedicure/classic/Foot Massage.png";
-import HeadNeckMassageClassic from "../../../assets/modals//manicure and pedicure/classic/Head & Neck  Massage.png";
-import FullBodyMassageClassic from "../../../assets/modals//manicure and pedicure/classic/Full Body  Massage.png";
-
-// premium images
-import ManicurePremium from "../../../assets/modals/manicure and pedicure/premium/Manicure-premium.png";
-import PedicurePremium from "../../../assets/modals/manicure and pedicure/premium/Pedicure-premium.png";
-import PremiumMassage from "../../../assets/modals/manicure and pedicure/premium/Premium Massage.png";
-
 const ManicureAndPedicureModal = ({ onClose, services = [], currentServiceId = null, onServiceChange = null }) => {
   const card = [
     {
       title: "Classic",
       data: [
         {
-          img: ManicureClassic,
+          img: "/images/modals/manicure and pedicure/classic/Manicure-classic.png",
           cardHeader: "Manicure",
           description:
             "Restore natural beauty with our clean, neat, and nourishing classic manicure",
@@ -30,7 +18,7 @@ const ManicureAndPedicureModal = ({ onClose, services = [], currentServiceId = n
           service_id: "manicure_classic",
         },
         {
-          img: PedicureClassic,
+          img: "/images/modals/manicure and pedicure/classic/Pedicure-classic.png",
           cardHeader: "Pedicure",
           description:
             "Rejuvenate your feet with our expertly delivered classic pedicure treatment",
@@ -41,7 +29,7 @@ const ManicureAndPedicureModal = ({ onClose, services = [], currentServiceId = n
           service_id: "pedicure_classic",
         },
         {
-          img: HeadNeckMassageClassic,
+          img: "/images/modals/manicure and pedicure/classic/Head & Neck  Massage.png",
           cardHeader: "Head & Neck Massage",
           description:
             "Soothe tension and fatigue with a calming massage that refreshes your mind and senses.",
@@ -52,7 +40,7 @@ const ManicureAndPedicureModal = ({ onClose, services = [], currentServiceId = n
           service_id: "head_neck_massage_classic",
         },
         {
-          img: FootMassageClassic,
+          img: "/images/modals/manicure and pedicure/classic/Foot Massage.png",
           cardHeader: "Relaxing Foot Massage",
           description:
             "Get relaxed with the best foot massage, relieving full-day stress",
@@ -63,7 +51,7 @@ const ManicureAndPedicureModal = ({ onClose, services = [], currentServiceId = n
           service_id: "relaxing_foot_massage_classic",
         },
         {
-          img: FullBodyMassageClassic,
+          img: "/images/modals/manicure and pedicure/classic/Full Body  Massage.png",
           cardHeader: "Full Body Massage",
           description:
             "Relaxes muscles, reduces fatigue, and delivers total rejuvenation for your mind and body.",
@@ -79,7 +67,7 @@ const ManicureAndPedicureModal = ({ onClose, services = [], currentServiceId = n
       title: "Premium",
       data: [
         {
-          img: ManicurePremium,
+          img: "/images/modals/manicure and pedicure/premium/Manicure-premium.png",
           cardHeader: "Manicure",
           description:
             "A deluxe hand care ritual that exfoliates, hydrates, and leaves a lasting glow",
@@ -90,7 +78,7 @@ const ManicureAndPedicureModal = ({ onClose, services = [], currentServiceId = n
           service_id: "manicure_premium",
         },
         {
-          img: PedicurePremium,
+          img: "/images/modals/manicure and pedicure/premium/Pedicure-premium.png",
           cardHeader: "Pedicure",
           description:
             "A deluxe pedicure experience that smooths & nourishes every step",
@@ -101,7 +89,7 @@ const ManicureAndPedicureModal = ({ onClose, services = [], currentServiceId = n
           service_id: "pedicure_premium",
         },
         {
-          img: PremiumMassage,
+          img: "/images/modals/manicure and pedicure/premium/Premium Massage.png",
           cardHeader: "Full Body Premium Massage",
           description:
             "Relaxes muscles, reduces fatigue, and delivers total rejuvenation for your mind and body.",

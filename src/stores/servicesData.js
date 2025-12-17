@@ -11,7 +11,7 @@ export const servicesData = {
         description: "Effortless elegance begins with clean, silky hands and legs.",
         price: 1600,
         unit: "including Taxes",
-        img: "/assets/waxing/hand-leg-classic.png",
+        img: "/images/waxing/hand-leg-classic.png",
         maxQuantity: 5
       },
       {
@@ -20,7 +20,7 @@ export const servicesData = {
         description: "Step into radiance with our expertly done hand and leg premium waxing treatment.",
         price: 1600,
         unit: "including Taxes",
-        img: "/assets/waxing/hand-leg-premium.png",
+        img: "/images/waxing/hand-leg-premium.png",
         maxQuantity: 5
       },
       {
@@ -29,7 +29,7 @@ export const servicesData = {
         description: "Reveal fresh, radiant skin all over with our expert full body wax.",
         price: 1600,
         unit: "including Taxes",
-        img: "/assets/waxing/full-body-classic.png",
+        img: "/images/waxing/full-body-classic.png",
         maxQuantity: 5
       },
       {
@@ -38,7 +38,7 @@ export const servicesData = {
         description: "Experience the ultimate in comfort and elegance with full body premium waxing.",
         price: 1600,
         unit: "including Taxes",
-        img: "/assets/waxing/full-body-premium.png",
+        img: "/images/waxing/full-body-premium.png",
         maxQuantity: 5
       },
       {
@@ -47,7 +47,7 @@ export const servicesData = {
         description: "Feel fresh, clean, and confident with our expertly delivered premium bikini wax.",
         price: 1600,
         unit: "including Taxes",
-        img: "/assets/waxing/bikini-premium.png",
+        img: "/images/waxing/bikini-premium.png",
         maxQuantity: 5
       }
     ]
@@ -63,21 +63,21 @@ export const servicesData = {
         name: "Bridal Makeup",
         description: "We create the most elegant bridal looks! Contact us to book yours today.",
         priceRange: "12k–28k",
-        img: "/assets/makeup/bridal.png"
+        img: "/images/makeup/bridal.png"
       },
       {
         id: "makeup-party",
         name: "Party Makeup",
         description: "We create the most elegant bridal looks! Contact us to book yours today.",
         priceRange: "4k–6k",
-        img: "/assets/makeup/party.png"
+        img: "/images/makeup/party.png"
       },
       {
         id: "makeup-engagement",
         name: "Engagement/Reception",
         description: "Seamless looks by our professionals! Contact us to book yours today.",
         priceRange: "10k–16k",
-        img: "/assets/makeup/engagement.png"
+        img: "/images/makeup/engagement.png"
       }
     ]
   }

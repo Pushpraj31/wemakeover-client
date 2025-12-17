@@ -314,7 +314,7 @@ export const completePaymentFlowThunk = createAsyncThunk(
                   description: service.description || `${service.name} - Professional beauty service`,
                   price: service.price,
                   quantity: service.quantity,
-                  image: service.image || '/src/assets/images/default-service.jpg',
+                  image: service.image || '/images/default-service.jpg',
                   category: service.category || 'Regular',
                   duration: service.duration || '60'
                 })) || []

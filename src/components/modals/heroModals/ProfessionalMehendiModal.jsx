@@ -1,14 +1,10 @@
 /* eslint-disable react/prop-types */
 import ServiceModal from "../ServiceModal";
 
-import BridalMehendi from "../../../assets/modals/Professional Mehendi/BridalMehendi.png";
-import MehendiForAll from "../../../assets/modals/Professional Mehendi/MehendiForAll.png";
-import CustomDesigns from "../../../assets/modals/Professional Mehendi/CustomDesigns.png";
-
 const ProfessionalMehendiModal = ({ onClose, services = [], currentServiceId = null, onServiceChange = null }) => {
   const mehendiCard = [
     {
-      img: BridalMehendi,
+      img: "/images/modals/Professional Mehendi/BridalMehendi.png",
       cardHeader: "Bridal Mehendi",
       serviceCategory: "Professional Mehendi",
       description:
@@ -21,7 +17,7 @@ const ProfessionalMehendiModal = ({ onClose, services = [], currentServiceId = n
       service_id: "bridal_mehendi",
     },
     {
-      img: MehendiForAll,
+      img: "/images/modals/Professional Mehendi/MehendiForAll.png",
       cardHeader: "Mehendi For All",
       serviceCategory: "Professional Mehendi",
       description:
@@ -34,7 +30,7 @@ const ProfessionalMehendiModal = ({ onClose, services = [], currentServiceId = n
       service_id: "mehendi_for_all",
     },
     {
-      img: CustomDesigns,
+      img: "/images/modals/Professional Mehendi/CustomDesigns.png",
       cardHeader: "Custom Designs",
       serviceCategory: "Professional Mehendi",
       description:

@@ -1,23 +1,13 @@
 /* eslint-disable react/prop-types */
 import ServiceModal from "../ServiceModal";
 
-// classic images
-import faceAndNeckBleach from "../../../assets/modals/bleach and de-tan/classic/faceAndNeckBleach.png";
-import handsAndLegsBleach from "../../../assets/modals/bleach and de-tan/classic/handsAndLegsBleach.png";
-import faceAndNeckDetan from "../../../assets/modals/bleach and de-tan/classic/faceAndNeckDetan.png";
-import handsAndLegsDetan from "../../../assets/modals/bleach and de-tan/classic/handsAndLegsDetan.png";
-import fullBodyDetan from "../../../assets/modals/bleach and de-tan/classic/fullBodyDetan.png";
-
-// premium images
-import fullBodyPolish from "../../../assets/modals/bleach and de-tan/premium/fullBodyPolish.svg";
-
 const BleachAndDeTanModal = ({ onClose, services = [], currentServiceId = null, onServiceChange = null }) => {
   const card = [
     {
       title: "Classic",
       data: [
         {
-          img: faceAndNeckDetan,
+          img: "/images/modals/bleach and de-tan/classic/faceAndNeckDetan.png",
           cardHeader: "Face & Neck Detan",
           description:
             "Step into softness with our expertly done hand and leg premium de-tan treatment.",
@@ -28,7 +18,7 @@ const BleachAndDeTanModal = ({ onClose, services = [], currentServiceId = null, 
           service_id: "face_neck_detan_classic",
         },
         {
-          img: handsAndLegsDetan,
+          img: "/images/modals/bleach and de-tan/classic/handsAndLegsDetan.png",
           cardHeader: "Hand & Leg Detan",
           description:
             "Effortless elegance begins with clean, silky hands and legs",
@@ -39,7 +29,7 @@ const BleachAndDeTanModal = ({ onClose, services = [], currentServiceId = null, 
           service_id: "hand_leg_detan_classic",
         },
         {
-          img: fullBodyDetan,
+          img: "/images/modals/bleach and de-tan/classic/fullBodyDetan.png",
           cardHeader: "Full Body Detan ",
           description:
             "Removes tan, brightens skin, and restores your natural glow instantly.",
@@ -50,7 +40,7 @@ const BleachAndDeTanModal = ({ onClose, services = [], currentServiceId = null, 
           service_id: "full_body_detan_classic",
         },
         {
-          img: faceAndNeckBleach,
+          img: "/images/modals/bleach and de-tan/classic/faceAndNeckBleach.png",
           cardHeader: "Face & Neck Bleach",
           description:
             "Step into softness with our expertly done face and neck premium de-tan treatment.",
@@ -61,7 +51,7 @@ const BleachAndDeTanModal = ({ onClose, services = [], currentServiceId = null, 
           service_id: "face_neck_bleach_classic",
         },
         {
-          img: handsAndLegsBleach,
+          img: "/images/modals/bleach and de-tan/classic/handsAndLegsBleach.png",
           cardHeader: "Hand & Leg Bleach",
           description:
             "Effortless elegance begins with clean, silky hands and legs",
@@ -77,7 +67,7 @@ const BleachAndDeTanModal = ({ onClose, services = [], currentServiceId = null, 
       title: "Premium",
       data: [
         {
-          img: fullBodyPolish,
+          img: "/images/modals/bleach and de-tan/premium/fullBodyPolish.svg",
           cardHeader: "Full Body Polish+Detan",
           description:
             "Exfoliates dead skin, smoothens texture, and restores an even, healthy glow from head to toe",

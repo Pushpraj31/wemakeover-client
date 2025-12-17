@@ -1,7 +1,3 @@
-
-import model from "../../src/assets/About/model.jpg";
-import founder1 from "../../src/assets/About/founder1.jpg";
-import founder2 from "../../src/assets/About/founder2.jpg";
 const AboutPage = () => {
   return (
     <div className="space-y-16 p-8 bg-gray-100">
@@ -21,7 +17,7 @@ const AboutPage = () => {
           </p>
         </div>
         <div className="md:w-1/3">
-          <img src={model} alt="About Us" className="rounded-lg" />
+          <img src="/images/About/model.jpg" alt="About Us" className="rounded-lg" />
         </div>
       </section>
 
@@ -53,7 +49,7 @@ const AboutPage = () => {
         <div className="space-y-8">
           {/* First Founder */}
           <div className="flex flex-col md:flex-row items-center gap-6">
-            <img src={founder1} alt="CEO"  className=" w-64 h-48 md:w-64 md:h-64  object-cover rounded-lg" />
+            <img src="/images/About/founder1.jpg" alt="CEO"  className=" w-64 h-48 md:w-64 md:h-64  object-cover rounded-lg" />
             <div>
               <h3 className="font-semibold">Priyanshu Priya – Founder & Chief Executive Officer (CEO)</h3>
               <p className="text-gray-700">
@@ -66,7 +62,7 @@ const AboutPage = () => {
           </div>
           {/* Second Founder */}
           <div className="flex flex-col md:flex-row items-center gap-6">
-            <img src={founder2} alt="CTO" className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-lg" />
+            <img src="/images/About/founder2.jpg" alt="CTO" className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-lg" />
             <div>
               <h3 className="font-semibold">Ravindu Ranjan – Co-Founder & Chief Technology Officer (CTO)</h3>
               <p className="text-gray-700">

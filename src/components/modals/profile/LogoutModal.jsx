@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-import polarBear from "../../../assets/modals/profile/polarBear.gif";
 import { logoutUser } from "../../../features/auth/authThunks";
 
 const LogoutModal = ({ onCancel }) => {
@@ -40,7 +39,7 @@ const LogoutModal = ({ onCancel }) => {
       >
         <div className="w-full h-2/3 -mt-6">
           <img
-            src={polarBear}
+            src="/images/modals/profile/polarBear.gif"
             alt="Koala"
             loading="lazy"
             className="w-full h-full  object-cover object-center"

@@ -1,20 +1,12 @@
-import estee from "../../../assets/brands/estee.png";
-import sugar from "../../../assets/brands/sugar.png";
-import bobbi from "../../../assets/brands/bobbi.png";
-import huda from "../../../assets/brands/huda.png";
-import mac from "../../../assets/brands/mac.png";
-import o3 from "../../../assets/brands/o3.png";
-import raaga from "../../../assets/brands/raaga.png";
-
 const Cilents = () => {
   const brands = [
-    { id: 1, src: huda, alt: "Huda Beauty" },
-    { id: 2, src: estee, alt: "Estee Lauder" },
-    { id: 3, src: mac, alt: "MAC" },
-    { id: 4, src: bobbi, alt: "Bobbi Brown" },
-    { id: 5, src: raaga, alt: "Raaga" },
-    { id: 6, src: o3, alt: "O3+" },
-    { id: 7, src: sugar, alt: "Sugar" },
+    { id: 1, src: "/images/brands/huda.png", alt: "Huda Beauty" },
+    { id: 2, src: "/images/brands/estee.png", alt: "Estee Lauder" },
+    { id: 3, src: "/images/brands/mac.png", alt: "MAC" },
+    { id: 4, src: "/images/brands/bobbi.png", alt: "Bobbi Brown" },
+    { id: 5, src: "/images/brands/raaga.png", alt: "Raaga" },
+    { id: 6, src: "/images/brands/o3.png", alt: "O3+" },
+    { id: 7, src: "/images/brands/sugar.png", alt: "Sugar" },
   ];
 
   return (

@@ -564,7 +564,7 @@ const Checkout = ({
           `${service.name} - Professional beauty service`,
         price: service.price,
         quantity: service.quantity,
-        image: service.image || "/src/assets/images/default-service.jpg", // Required field
+        image: service.image || "/images/default-service.jpg", // Required field
         category: service.category || "Regular", // Required field with enum values
         duration: service.duration || "60", // Duration in minutes
       }));

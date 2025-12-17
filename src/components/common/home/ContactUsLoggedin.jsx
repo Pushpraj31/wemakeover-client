@@ -1,5 +1,3 @@
-import Device from "../../../assets/contact/Device.png";
-import DeviceAndroid from "../../../assets/contact/DeviceAndroid.png";
 
 const ContactUsLoggedin = () => {
   return (
@@ -29,14 +27,14 @@ const ContactUsLoggedin = () => {
       <div className="relative w-full lg:w-[522px] h-[300px] sm:h-[400px] md:h-[450px] lg:h-[506px] p-3 sm:p-4 md:p-6 lg:p-8 bg-white overflow-hidden">
         {/* First device */}
         <img
-          src={Device}
+          src="/images/contact/Device.png"
           className="absolute top-0 left-0 w-[200px] sm:w-[250px] md:w-[280px] lg:w-[301px] h-[300px] sm:h-[400px] md:h-[450px] lg:h-[506px] object-contain"
           alt=""
         />
 
         {/* Second device overlapping */}
         <img
-          src={DeviceAndroid}
+          src="/images/contact/DeviceAndroid.png"
           className="absolute top-0 left-[120px] sm:left-[160px] md:left-[180px] lg:left-40 w-[200px] sm:w-[250px] md:w-[280px] lg:w-[301px] h-[300px] sm:h-[400px] md:h-[450px] lg:h-[506px] object-contain"
           alt=""
         />

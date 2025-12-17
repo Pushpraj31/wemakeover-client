@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from "react-redux";
 import FormSection from "../forms/FormSection";
 import FormFooter from "../forms/FormFooter";
 
-import loginHeader from "../../../assets/loginHeader.jpg";
 import { loginUser } from "../../../features/auth/authThunks";
 import Logo from "../../ui/Logo";
 
@@ -90,7 +89,7 @@ const LoginPage = () => {
         {/* RIGHT: Image */}
         <div className="hidden lg:block lg:w-1/2">
           <img
-            src={loginHeader}
+            src="/images/loginHeader.jpg"
             alt="Login Visual"
             loading="lazy"
             className="w-full h-full object-cover object-center"

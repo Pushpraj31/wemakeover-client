@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FormSection from "../forms/FormSection";
 import FormFooter from "../forms/FormFooter";
-import signupHeader from "../../../assets/signupHeader.jpg";
 import Logo from "../../ui/Logo";
 import { useDispatch, useSelector } from "react-redux";
 import { signupUser } from "../../../features/auth/authThunks";
@@ -163,7 +162,7 @@ const SignupPage = () => {
         {/* RIGHT IMAGE */}
         <div className="hidden lg:block lg:w-1/2">
           <img
-            src={signupHeader}
+            src="/images/signupHeader.jpg"
             alt="Signup Glam"
             loading="lazy"
             className="w-full h-full object-cover object-center"

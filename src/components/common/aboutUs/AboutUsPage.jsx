@@ -1,10 +1,5 @@
 import SectionTitle from "../../ui/SectionTitle";
 import NewsletterSubscription from "../../ui/NewsletterSubscription";
-// import model from "../../../assets/About/model.jpg";
-import model2 from "../../../assets/About/model2.svg";
-import founder1 from "../../../assets/About/founder1.jpg";
-import Aadarsh from "../../../assets/About/Aadarsh.jpg";
-import Pushpraj from "../../../assets/About/Pushpraj.jpg";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
@@ -57,7 +52,7 @@ const AboutUsPage = () => {
     {
       name: "Priyanshu Priya",
       designation: "Founder & Chief Executive Officer (CEO)",
-      image: founder1,
+      image: "/images/About/founder1.jpg",
       description:
         "A dynamic leader with a sharp eye for growth, Priyanshu brings in-depth expertise in sales, marketing, and team management. Her entrepreneurial spirit and people-first approach have played a pivotal role in building Wemakeover's trusted reputation. From crafting customer acquisition strategies to nurturing a high-performance team, Priyanshu ensures the brand stays aligned with evolving market needs while always putting customer delight at the forefront.",
     },
@@ -75,7 +70,7 @@ const AboutUsPage = () => {
     {
       name: "Aadarsh Upadhyay",
       designation: "Software Development Engineer (SDE)",
-      image: Aadarsh,
+      image: "/images/About/Aadarsh.jpg",
       description:
         "A skilled software engineer with expertise in building scalable and responsive web applications. Aadarsh focuses on creating seamless user experiences and robust backend systems that power the Wemakeover platform, ensuring reliability and performance.",
       socialMedia: {
@@ -89,7 +84,7 @@ const AboutUsPage = () => {
     {
       name: "Pushpraj Ranjan",
       designation: "Software Development Engineer (SDE)",
-      image: Pushpraj,
+      image: "/images/About/Pushpraj.jpg",
       description:
         "Passionate about modern web technologies and user-centric design, Pushpraj contributes to developing innovative features and maintaining code quality. His dedication to clean architecture and best practices helps deliver exceptional digital experiences.",
       socialMedia: {
@@ -288,7 +283,7 @@ const AboutUsPage = () => {
 
           <div className="w-full sm:w-80 lg:w-[260px] h-auto sm:h-[320px] lg:h-[383px] bg-[#FF2F54]  rounded-xl mt-6 lg:mt-0">
             <img
-              src={model2}
+              src="/images/About/model2.svg"
               alt="Wemakeover model"
               className="w-full h-full object-cover rounded-lg lg:rounded-xl"
             />

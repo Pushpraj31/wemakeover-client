@@ -1,17 +1,18 @@
 import { motion } from "framer-motion";
-import f1 from "../../../assets/feedback/1.svg";
-import f2 from "../../../assets/feedback/2.svg";
-import f3 from "../../../assets/feedback/3.svg";
-import f4 from "../../../assets/feedback/4.svg";
-import f5 from "../../../assets/feedback/5.svg";
-import f6 from "../../../assets/feedback/6.svg";
-import f7 from "../../../assets/feedback/7.svg";
 
 const Testimonial = () => {
   const review =
-    "“I loved how professional and well-prepared the beautician was—felt like a salon at home!” says one of our happy clients. Another shares, Wemakeover is my go-to for last-minute grooming; always on time, clean, and super relaxing.” Many of our customers rave about the convenience: “I booked a facial during my lunch break and came out glowing—without stepping out!” Whether it's bridal services, waxing, or a simple manicure, the feedback is unanimous: Wemakeover makes self-care seamless, luxurious, and dependable.";
+    ""I loved how professional and well-prepared the beautician was—felt like a salon at home!" says one of our happy clients. Another shares, Wemakeover is my go-to for last-minute grooming; always on time, clean, and super relaxing." Many of our customers rave about the convenience: "I booked a facial during my lunch break and came out glowing—without stepping out!" Whether it's bridal services, waxing, or a simple manicure, the feedback is unanimous: Wemakeover makes self-care seamless, luxurious, and dependable.";
 
-  const imageContainer = [f1, f2, f3, f4, f5, f6, f7];
+  const imageContainer = [
+    "/images/feedback/1.svg",
+    "/images/feedback/2.svg",
+    "/images/feedback/3.svg",
+    "/images/feedback/4.svg",
+    "/images/feedback/5.svg",
+    "/images/feedback/6.svg",
+    "/images/feedback/7.svg"
+  ];
 
   // Duplicate images for smooth infinite loop
   const loopImages = [...imageContainer, ...imageContainer];

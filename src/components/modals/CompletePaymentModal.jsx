@@ -86,7 +86,7 @@ const CompletePaymentModal = ({
         `${service.name || "Service"} - Professional beauty service`,
       price: toNumber(service.price, 0),
       quantity: toNumber(service.quantity, 1),
-      image: service.image || "/src/assets/images/default-service.jpg",
+      image: service.image || "/images/default-service.jpg",
       category: service.category || "Regular",
       duration: service.duration || "60",
     }));

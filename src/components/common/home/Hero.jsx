@@ -1,11 +1,4 @@
 import { useState } from "react";
-import heroImg from "../../../assets/hero/Hero.jpg";
-import artistImg from "../../../assets/hero/artist.png";
-import faceFoundationImg from "../../../assets/hero/faceFoundation.png";
-import tattooImg from "../../../assets/hero/tattoo.png";
-import naturalIngridentsImg from "../../../assets/hero/naturalIngridents.png";
-import primerImg from "../../../assets/hero/primer.png";
-import makeupImg from "../../../assets/hero/makeup.png";
 
 import ProfessionalMakeup from "../../modals/heroModals/ProfessionalMakeup";
 import CleanupAndFacialModal from "../../modals/heroModals/CleanupAndFacialModal";
@@ -37,37 +30,37 @@ const Hero = () => {
     {
       id: 1,
       name: "Professional Makeup",
-      image: artistImg,
+      image: "/images/hero/artist.png",
       modal: <ProfessionalMakeup onClose={closeModal} services={servicesList} currentServiceId={1} onServiceChange={handleServiceChange} />,
     },
     {
       id: 2,
       name: "Cleanup & Facial",
-      image: faceFoundationImg,
+      image: "/images/hero/faceFoundation.png",
       modal: <CleanupAndFacialModal onClose={closeModal} services={servicesList} currentServiceId={2} onServiceChange={handleServiceChange} />,
     },
     {
       id: 3,
       name: "Professional Mehendi",
-      image: tattooImg,
+      image: "/images/hero/tattoo.png",
       modal: <ProfessionalMehendiModal onClose={closeModal} services={servicesList} currentServiceId={3} onServiceChange={handleServiceChange} />,
     },
     {
       id: 4,
       name: "Waxing",
-      image: naturalIngridentsImg,
+      image: "/images/hero/naturalIngridents.png",
       modal: <WaxingModal onClose={closeModal} services={servicesList} currentServiceId={4} onServiceChange={handleServiceChange} />,
     },
     {
       id: 5,
       name: "Mani/Pedi & Massage",
-      image: primerImg,
+      image: "/images/hero/primer.png",
       modal: <ManicureAndPedicureModal onClose={closeModal} services={servicesList} currentServiceId={5} onServiceChange={handleServiceChange} />,
     },
     {
       id: 6,
       name: "Detan & Bleach",
-      image: makeupImg,
+      image: "/images/hero/makeup.png",
       modal: <BleachAndDeTanModal onClose={closeModal} services={servicesList} currentServiceId={6} onServiceChange={handleServiceChange} />,
     },
   ];
@@ -80,7 +73,7 @@ const Hero = () => {
       {/* Hero Image Section */}
       <div className="w-full h-[300px] sm:h-[350px] md:h-[400px] lg:w-1/2 lg:h-full flex items-center justify-center order-1 lg:order-1">
         <img
-          src={heroImg}
+          src="/images/hero/Hero.jpg"
           alt="Hero"
           className="w-full h-full object-cover object-center"
         />

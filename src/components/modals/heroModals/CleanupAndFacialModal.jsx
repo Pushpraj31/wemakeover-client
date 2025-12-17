@@ -1,23 +1,5 @@
 /* eslint-disable react/prop-types */
 import ServiceModal from "../ServiceModal";
-import VitaminCBrighteningFacial from "../../../assets/modals/cleanup and facical/regular/VitaminCBrighteningFacial.png";
-
-// regular images
-import FruitFacial from "../../../assets/modals/cleanup and facical/regular/FruitFacial.png";
-import Cleanup from "../../../assets/modals/cleanup and facical/regular/Cleanup.png";
-import AntiAgeing from "../../../assets/modals/cleanup and facical/regular/AntiAgeing.png";
-import DeTanFacial from "../../../assets/modals/cleanup and facical/regular/DeTanFacial.png";
-
-// premium images
-import RaagaRejuvenatingFacial from "../../../assets/modals/cleanup and facical/premium/RaagaRejuvenatingFacial.png";
-import StayYoungFacial from "../../../assets/modals/cleanup and facical/premium/StayYoungFacial.png";
-import O3ShineGlowFacial from "../../../assets/modals/cleanup and facical/premium/O3+ Shine & Glow Facial.png";
-import MamaEarthUbtanFacial from "../../../assets/modals/cleanup and facical/premium/MamaEarthUbtanFacial.png";
-
-// bridal images
-import BridalFacial from "../../../assets/modals/cleanup and facical/bridal/O3+BridalFacial.png";
-import AromaMagicBridalFacial from "../../../assets/modals/cleanup and facical/bridal/AromaMagicBridalFacial.png";
-import KanpekiBridalFacial from "../../../assets/modals/cleanup and facical/bridal/Kanpeki Bridal Facial.png";
 
 const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null, onServiceChange = null }) => {
   const card = [
@@ -25,7 +7,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
       title: "Regular",
       data: [
         {
-          img: VitaminCBrighteningFacial,
+          img: "/images/modals/cleanup and facical/regular/VitaminCBrighteningFacial.png",
           cardHeader: "Vit C Brightening Facial",
           description:
             "Restores luminosity and evens skin tone with the power of Vitamin C",
@@ -36,7 +18,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
           service_id: "vitamin_c_brightening_facial_regular",
         },
         {
-          img: FruitFacial,
+          img: "/images/modals/cleanup and facical/regular/FruitFacial.png",
           cardHeader: "Fruit Facial",
           description:
             "Indulge in a fruity rejuvenation for instantly fresh skin",
@@ -47,7 +29,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
           service_id: "fruit_facial_regular",
         },
         {
-          img: Cleanup,
+          img: "/images/modals/cleanup and facical/regular/Cleanup.png",
           cardHeader: "Face & Neck Cleanup",
           description:
             "Indulge in a fruity rejuvenation for instantly fresh skin",
@@ -58,7 +40,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
           service_id: "cleanup_regular",
         },
         {
-          img: DeTanFacial,
+          img: "/images/modals/cleanup and facical/regular/DeTanFacial.png",
           cardHeader: "De-Tan Facial",
           description:
             "Combat early signs of ageing with a deeply nourishing facial experience",
@@ -69,7 +51,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
           service_id: "detan_facial_regular",
         },
         {
-          img: MamaEarthUbtanFacial,
+          img: "/images/modals/cleanup and facical/premium/MamaEarthUbtanFacial.png",
           cardHeader: "Mamma Earth Ubtan Facial",
           description:
             "Brighten and revive your skin with the natural goodness of ubtan and turmeric",
@@ -85,7 +67,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
       title: "Premium",
       data: [
         {
-          img: RaagaRejuvenatingFacial,
+          img: "/images/modals/cleanup and facical/premium/RaagaRejuvenatingFacial.png",
           cardHeader: "Raaga Rejuvenating Facial",
           description:
             "Experience a serene skincare journey with Raaga's signature rejuvenating facial",
@@ -96,7 +78,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
           service_id: "o3_plus_cleanup_premium",
         },
         {
-          img: AntiAgeing,
+          img: "/images/modals/cleanup and facical/regular/AntiAgeing.png",
           cardHeader: "Raaga Anti-Ageing Facial",
           description:
             "Combat early signs of ageing with a deeply nourishing facial experience",
@@ -107,7 +89,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
           service_id: "anti_ageing_30_plus_premium",
         },
         {
-          img: O3ShineGlowFacial,
+          img: "/images/modals/cleanup and facical/premium/O3+ Shine & Glow Facial.png",
           cardHeader: "O3+ Shine & Glow Facial",
           description:
             "Restores luminosity and evens skin tone with the power of Vitamin C",
@@ -123,7 +105,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
       title: "Bridal",
       data: [
         {
-          img: BridalFacial,
+          img: "/images/modals/cleanup and facical/bridal/O3+BridalFacial.png",
           cardHeader: "O3+ Bridal Facial",
           description:
             "Get wedding-ready with the O3+ Bridal Facial-crafted for an instant bridal glow",
@@ -134,7 +116,7 @@ const CleanupAndFacialModal = ({ onClose, services = [], currentServiceId = null
           service_id: "o3_bridal_facial_bridal",
         },
         {
-          img: KanpekiBridalFacial,
+          img: "/images/modals/cleanup and facical/bridal/Kanpeki Bridal Facial.png",
           cardHeader: "Kanpeki Bridal Facial",
           description:
             "Get the best glow & sparkling experience by Kanpeki's bridal facial kit",
